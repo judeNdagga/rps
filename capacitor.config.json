@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "RPS",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

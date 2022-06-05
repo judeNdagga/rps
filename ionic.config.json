@@ -1,0 +1,8 @@
+{
+  "name": "RPS",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "3279208c"
+}
