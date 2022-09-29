@@ -1,0 +1,7 @@
+{
+  "name": "rps",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

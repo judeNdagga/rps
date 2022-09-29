@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  
+    <ion-title>
+      Bro
+    </ion-title>
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+      <ion-label> the message </ion-label>
+      <ion-input type="text" [(ngModel)]="message" placeholder="Hello"></ion-input>
+      <button ion-button block (click)="sendMessage()"> Send Message </button>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Ready to create an app?</strong>
+    <div>
+      <form id ="chat-form">
+          <input id="chat">
+          <button id="say">Say</button>
+
+      </form>
+      
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+      
+  </div> -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="src/client.js"></script>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div>
+</ion-content>
